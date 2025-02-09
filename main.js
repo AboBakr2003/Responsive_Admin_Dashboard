@@ -21,6 +21,7 @@ darkMode.addEventListener('click', () => {
 fetch("/orders.json")
 .then((response) => {
     let orders = response.json();
+    console.log(orders);
     return orders;
 })
 .then((orders) => {
