@@ -10,17 +10,17 @@
     <!-- CSS file -->
     <link rel="stylesheet" href="style.css">
     <!-- JS files -->
-    <script src="orders.js" defer></script>
+    <!-- <script src="orders.js" defer></script> -->
     <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <!-- Start of Sedebar section -->
+        <!-- Start of Sedebar Section -->
         <aside>
             <div class="toggle">
                 <div class="logo">
-                    <img src="/images/logo.png" alt="">
-                    <h2>Beko<span class="danger">Tech</span></h2>
+                    <img src="images/logo.png" alt="">
+                    <h1>Beko<span class="danger">Tech</span></h1>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-outlined">close</span>
@@ -42,13 +42,11 @@
                 <a href="#" class="active">
                     <span class="material-icons-outlined">insights</span>
                     <h3>Analytics</h3>
-                    <span class="message-count">27</span>
-
                 </a>
                 <a href="#">
                     <span class="material-icons-outlined">mail_outline</span>
                     <h3>Tickets</h3>
-                    <span class="message-count">27</span>
+                    <span class="message-count">13</span>
                 </a>
                 <a href="#">
                     <span class="material-icons-outlined">receipt_long</span>
@@ -72,7 +70,173 @@
                 </a>
             </div>
         </aside>
-        <!-- End of Sidebar section -->
+        <!-- End of Sidebar Section -->
+
+        <!-- Start of Main Content -->
+        <main>
+            <!-- Start of Analysis -->
+            <div class="analysis">
+                <h2>Analytics</h2>
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$65,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="42" cy="44" r="36"></circle>
+                            </svg>
+                            <div class="precentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Site Visit</h3>
+                            <h1>24,981</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="42" cy="44" r="36"></circle>
+                            </svg>
+                            <div class="precentage">
+                                <p>-41%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>14,147</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="42" cy="44" r="36"></circle>
+                            </svg>
+                            <div class="precentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analysis -->
+
+            <!-- Start of New Users Section-->
+            <div class="new-users">
+                <h2>New Users</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="images/userProfileImage-1.jpg" alt="">
+                        <h2>Jack</h2>
+                        <p>54 Min Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/userProfileImage-2.jpg" alt="">
+                        <h2>Amir</h2>
+                        <p>3 Hours Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/userProfileImage-3.jpg" alt="">
+                        <h2>Ember</h2>
+                        <p>6 Hour Ago</p>
+                    </div>
+                    <div class="user add">
+                        <img src="images/plus.png" alt="">
+                        <h2>More</h2>
+                        <p>New User</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Start Of Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Course Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- End Of Recent Orders Table -->
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Start Of Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-outlined">menu</span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-outlined active">light_mode</span>
+                    <span class="material-icons-outlined">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>AbuBakr</p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="picture">
+                        <img src="images/adminProfileImage.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="user-profile">
+                <img src="images/adminProfileImage.jpg" alt="">
+                <h2>AbuBakr Haty</h2>
+                <p>FrontEnd Web Developer</p>
+            </div>
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-outlined">notifications_none</span>
+                </div>
+                <div class="notification">
+                    <div class="icon volume">
+                        <span class="material-icons-outlined">volume_up</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text-muted">08:00 AM - 12:00 PM</small>
+                        </div>
+                        <span class="material-icons-outlined">more_vert</span>
+                    </div>
+                </div>
+                <div class="notification deactive">
+                    <div class="icon edit">
+                        <span class="material-icons-outlined">edit</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text-muted">08:00 AM - 12:00 PM</small>
+                        </div>
+                        <span class="material-icons-outlined">more_vert</span>
+                    </div>
+                </div>
+                <div class="notification add-reminder">
+                        <span class="material-icons-outlined">add</span>
+                        <h3>Add Reminder</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Of Right Section -->
     </div>
 </body>
 </html>
